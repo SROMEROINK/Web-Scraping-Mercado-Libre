@@ -1,0 +1,36 @@
+    /* Estilos de etiquetas */
+    label {
+        display: block; /* Coloca cada etiqueta en su propia línea */
+        font-weight: bold; /* Hace que las etiquetas sean más visibles */
+        margin-bottom: 5px; /* Agrega un pequeño margen inferior para separar las etiquetas de los campos de entrada */
+    }
+
+    /* Estilos de campos de entrada */
+    input[type="text"],
+    input[type="number"] {
+        padding: 10px; /* Agrega un poco de relleno a los campos de entrada para que sean más fáciles de hacer clic */
+        margin-bottom: 20px; /* Agrega un espacio entre los campos de entrada */
+        border: none; /* Elimina el borde predeterminado del campo de entrada */
+        border-radius: 5px; /* Agrega un borde redondeado a los campos de entrada */
+        box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Agrega una sombra ligera alrededor de los campos de entrada */
+    }
+
+    /* Estilos de botones */
+    button[type="submit"] {
+        background-color: #4CAF50; /* Cambia el color de fondo del botón */
+        color: #fff; /* Cambia el color del texto del botón */
+        padding: 10px; /* Agrega un poco de relleno al botón para que sea más fácil de hacer clic */
+        border: none; /* Elimina el borde predeterminado del botón */
+        border-radius: 5px; /* Agrega un borde redondeado al botón */
+        cursor: pointer; /* Cambia el cursor del mouse cuando se coloca sobre el botón */
+    }
+
+/* Estilos de botón de borrar */
+button[type="button"] {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
