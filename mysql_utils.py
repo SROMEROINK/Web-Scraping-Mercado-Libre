@@ -3,9 +3,9 @@ import mysql.connector
 try:
     conexion = mysql.connector.connect(
         host="localhost",
-        port="3308",
-        user="root",
-        password="",
+        port="3306",
+        user="SRINK",
+        password="Vayneadc2022",
         database="scraping_ml"
     )
     if conexion.is_connected():
